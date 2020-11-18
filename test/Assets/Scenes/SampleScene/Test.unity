@@ -8967,32 +8967,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 2018271272}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efa5f99f34c53b44d927066104d92e98, type: 3}
+  m_Script: {fileID: 11500000, guid: 6df4607db1a9e9b4184599b1f43dac40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraTransform: {fileID: 0}
-  dummyTarget: {fileID: 0}
   CameraTarget: {fileID: 363087224}
-  FollowDistance: 30
-  MaxFollowDistance: 100
+  FollowDistance: 17.5
+  MaxFollowDistance: 50
   MinFollowDistance: 2
-  ElevationAngle: 30
+  ElevationAngle: 45
   MaxElevationAngle: 85
   MinElevationAngle: 0
   OrbitalAngle: 0
-  CameraMode: 2
+  CameraMode: 0
   MovementSmoothing: 1
   RotationSmoothing: 0
-  previousSmoothing: 0
   MovementSmoothingValue: 25
   RotationSmoothingValue: 5
-  MoveSensitivity: 2
-  currentVelocity: {x: 0, y: 0, z: 0}
-  desiredPosition: {x: 0, y: 0, z: 0}
-  mouseX: 0
-  mouseY: 0
-  moveVector: {x: 0, y: 0, z: 0}
-  mouseWheel: 0
+  MoveSensitivity: 1
 --- !u!124 &2018271275
 Behaviour:
   m_ObjectHideFlags: 0
