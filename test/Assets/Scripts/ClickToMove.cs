@@ -42,10 +42,12 @@ public class ClickToMove : MonoBehaviour
         m_Anim.SetBool("running", m_Running);
 
 
-      /*{
-            var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray.origin, ray.direction, out m_HitInfo))
-                m_Agent.destination = m_HitInfo.point;
-        }*/
+        /*{
+              var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+              if (Physics.Raycast(ray.origin, ray.direction, out m_HitInfo))
+                  m_Agent.destination = m_HitInfo.point;
+          }*/
+
+
     }
 }
